@@ -20,7 +20,7 @@ for item in links:
         print(item_text)
         print(item_href)
         print("Parent:", item.find("a").parent)
-        print("Summary:", item.find("a").parent.parent.find("p").text)
+        #print("Summary:", item.find("a").parent.parent.find("p").text)
         sibling = item.find("h2")
         print("Next sibling of the h2:", sibling.next_sibling)
         children = item.children
